@@ -80,7 +80,7 @@ const Form2 = () => {
                 type="text"
                 placeholder="name"
                 onChange={(e) => changeHandle(e)}
-                required
+                 
               />
               <div className="name-validation">
                 <span>{formerror.name}</span>
@@ -95,7 +95,7 @@ const Form2 = () => {
                 type="email"
                 placeholder="email"
                 onChange={(e) => changeHandle(e)}
-                required
+                 
               />
               <div className="name-validation">
                 {" "}
@@ -111,7 +111,7 @@ const Form2 = () => {
                 type="text"
                 placeholder="phone"
                 onChange={(e) => changeHandle(e)}
-                required
+                
               />
               <div className="name-validation">
                 {" "}
