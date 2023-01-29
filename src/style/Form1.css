@@ -29,7 +29,7 @@
 
 .addrow-btn,
 .deleterow-btn,
-.submit-btn {
+.submit-btn,.editrow-btn {
   padding: 7px 15px;
   border: none;
   outline: none;
