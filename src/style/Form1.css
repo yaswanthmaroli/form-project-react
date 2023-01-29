@@ -1,0 +1,74 @@
+.form1 {
+  margin-top: 40px;
+}
+
+.form-items {
+  margin-top: 40px;
+  flex-wrap: wrap;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.form-item input {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 14px;
+  padding-left: 5px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.addrow-btn,
+.deleterow-btn,
+.submit-btn {
+  padding: 7px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #22c1c3;
+  color: #fff;
+}
+
+.deleterow-btn {
+  margin-left: 10px;
+  flex-wrap: wrap;
+  background-color: red;
+}
+
+.name-validation {
+  color: red;
+  font-weight: 600;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 772px) {
+  .form-items {
+    margin-top: 20px;
+  }
+
+  .form-item {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .deleterow-btn {
+    margin-top: 20px;
+  }
+}
