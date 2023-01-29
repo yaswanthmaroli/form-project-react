@@ -33,7 +33,7 @@ const Form2 = () => {
     if (inputdata.email === "") {
       err.email = "email is required";
     }
-    if (inputdata.name === "") {
+    if (inputdata.phone === "") {
       err.phone = "phone is required";
     }
 
