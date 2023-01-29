@@ -136,10 +136,10 @@ const Form2 = () => {
                 </div>
               </Col>
 
-              <Row>
+              
                 <div className="form-display-items">
-                  <Col md="10">
-                    <Table bordered>
+                  
+                    <Table bordered responsive className="noWrap">
                       <thead>
                         <tr>
                           <th> Name</th>
@@ -158,9 +158,9 @@ const Form2 = () => {
                         </tbody>
                       ))}
                     </Table>
-                  </Col>
+                   
                 </div>
-              </Row>
+               
             </Container>
           )}
         </div>

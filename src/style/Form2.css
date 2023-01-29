@@ -28,13 +28,7 @@
     margin-top: 20px;
 }
 
-tr{
-    width: 100%;
-}
-
-td{
-    width: 30%;
-}
+ 
 
 
 @media (max-width:768px){
